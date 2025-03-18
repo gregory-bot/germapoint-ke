@@ -14,7 +14,9 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen, setIsCartOpe
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src="https://i.postimg.cc/HxfZNvVV/logo-2.jpg" alt="German Point Logo" className="h-12 w-auto mr-2" />
-          <h1 className="text-2xl text-red-600">German Point</h1>
+          <h1 className="text-3xl text-red-600 font-bold" style={{ fontFamily: 'Courier New, monospace' }}>
+            German Point
+          </h1>
         </div>
         <nav className="hidden md:flex space-x-6">
           <a href="#home" className="text-black-600 hover:text-blue-600 transition duration-300">Home</a>
