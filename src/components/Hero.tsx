@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 const videos = [
-  "/src/1. .mp4",
-  "/src/2. .mp4",
-  "/src/3. .mp4"
+  "https://res.cloudinary.com/dgvx2tbcy/video/upload/v1733931844/1._lu7yst.mp4",
+  "https://res.cloudinary.com/dgvx2tbcy/video/upload/v1733931848/2._lhigdy.mp4",
+  "https://res.cloudinary.com/dgvx2tbcy/video/upload/v1733931840/3._enhdbm.mp4"
 ];
 
 const Hero: React.FC = () => {
