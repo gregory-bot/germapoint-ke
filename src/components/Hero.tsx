@@ -53,20 +53,20 @@ const Hero: React.FC = () => {
 
       {/* Hero Content */}
       <div className="relative z-20 text-center text-white">
-        <h2 className="text-5xl font-bold mb-4 animate-fade-in-down">
+        <h2 className="text-5xl font-bold mb-4 animate-fade-in-down" style={{ fontFamily: 'Courier New, monospace' }}>
           <TypeAnimation
             sequence={[
               "Welcome to German Point", // Text to display
               2000, // Delay before deletion
               "", // Empty string for deletion
-              80, // Deletion speed
+              30, // Deletion speed (slower for realism)
             ]}
-            speed={80} // Typing speed
-            deletionSpeed={80} // Deletion speed
+            speed={80} // Typing speed (slower for realism)
+            deletionSpeed={30} // Deletion speed (slower for realism)
             repeat={Infinity} // Repeat indefinitely
           />
         </h2>
-        <p className="text-xl mb-8 animate-fade-in-up">
+        <p className="text-xl mb-8 animate-fade-in-up" style={{ fontFamily: 'Courier New, monospace' }}>
           Experience authentic German cuisine with a modern twist
         </p>
         <a
